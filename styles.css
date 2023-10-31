@@ -1,0 +1,82 @@
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* 반응형 디자인: 600px 미만의 화면 크기에 대한 스타일 */
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 90%; /* 전체 화면의 90%로 설정 */
+    margin: 20px auto; /* 상하 마진을 20px로 줄입니다. */
+  }
+}
+
+.start-section {
+  background-image: url("처음.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-section {
+  background-image: url("1번설문지.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+button {
+  background-color: #8B4513;
+  border: 1px solid #D2691E;
+  color: #FFDAB9;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #A0522D;
+}
+
+.selected-answer {
+  background-color: #4caf50;
+  color: white;
+}
+
+.results-section {
+  background-image: url("배경.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.results-content {
+  transform: translateY(300px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.moved-down {
+  transform: translateY(100px);
+}
