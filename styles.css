@@ -7,7 +7,7 @@
 /* 반응형 디자인: 600px 미만의 화면 크기에 대한 스타일 */
 @media (max-width: 480px) {
   .container {
-    max-width: 90%; /* 화면 너비의 90% */
+    max-width: 100%; /* 화면 너비의 90% */
     margin: 20px auto;
   }
 }
