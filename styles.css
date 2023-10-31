@@ -5,10 +5,10 @@
 }
 
 /* 반응형 디자인: 600px 미만의 화면 크기에 대한 스타일 */
-@media only screen and (max-width: 600px) {
+@media (max-width: 480px) {
   .container {
-    max-width: 90%; /* 전체 화면의 90%로 설정 */
-    margin: 20px auto; /* 상하 마진을 20px로 줄입니다. */
+    max-width: 90%; /* 화면 너비의 90% */
+    margin: 20px auto;
   }
 }
 
@@ -79,4 +79,16 @@ button:hover {
 
 .moved-down {
   transform: translateY(100px);
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+}
+
+.background-image {
+  background-image: url('처음.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
 }
