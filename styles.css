@@ -56,17 +56,6 @@ button:hover {
   color: white;
 }
 
-.results-section {
-  background-image: url("배경.png.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
 
 .results-content {
   transform: translateY(300px);
