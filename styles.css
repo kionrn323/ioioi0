@@ -3,6 +3,13 @@
   margin: 50px auto;
   text-align: center;
 }
+@media (prefers-color-scheme: dark) {
+  /* 다크 모드에서 글씨가 밝은 색으로 표시되도록 스타일 추가 */
+  body {
+    color: #fff; /* 밝은 글씨색으로 변경, 예를 들어 화이트(#fff) */
+  }
+  /* 다른 요소에 대한 스타일 추가 */
+}
 
 /* 반응형 디자인: 600px 미만의 화면 크기에 대한 스타일 */
 @media (max-width: 480px) {
@@ -11,6 +18,16 @@
     margin: 20px auto;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  /* 여기에 다크 모드 스타일을 추가하세요 */
+  body {
+    background-color: #111;
+    color: #fff;
+  }
+  /* 다른 요소에 대한 스타일 추가 */
+}
+
 
 .start-section {
   background-image: url("처음.jpg");
@@ -83,5 +100,10 @@ img {
 }
 body, html {
   overflow: hidden;
+}
+.dark-mode {
+  /* 다크 모드 스타일을 추가하세요 */
+  background-color: #111;
+  color: #fff;
 }
 
