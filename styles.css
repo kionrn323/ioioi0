@@ -1,5 +1,5 @@
 .container {
-  max-width: 600px;
+  max-width: 480px;
   margin: 50px auto;
   text-align: center;
 }
@@ -57,7 +57,7 @@ button:hover {
 }
 
 .results-section {
-  background-image: url("배경.png");
+  background-image: url("배경.png.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
