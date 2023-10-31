@@ -14,7 +14,7 @@
 
 .start-section {
   background-image: url("처음.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
   height: 100vh;
@@ -28,7 +28,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
