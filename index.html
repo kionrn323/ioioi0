@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MBTI Test</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="start-section">
+      <input type="text" id="name" placeholder="당신의 이름을 적어주세요 ! ">
+      <button onclick="startTest()">시작</button>
+    </div>
+
+    <div class="question-section" style="display: none;">
+      <p id="question"></p>
+      <button onclick="submitAnswer('매우 그렇다')">매우 그렇다</button>
+      <button onclick="submitAnswer('그렇다')">그렇다</button>
+      <button onclick="submitAnswer('보통이다')">보통이다</button>
+      <button onclick="submitAnswer('아니다')">아니다</button>
+      <button onclick="submitAnswer('매우 아니다')">매우 아니다</button>
+    </div>
+
+    <div class="results-section" style="display: none;" id="results">
+      <h2 id="result-heading">당신의 빼빼로는!</h2>
+      <p id="result-description"></p>
+      <img id="result-image" src="" alt="MBTI Result Image" style="display: none;">
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
