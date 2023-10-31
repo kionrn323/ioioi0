@@ -128,8 +128,9 @@ function displayResults(scores) {
       resultsSection.appendChild(imgElement); // 결과 섹션에 이미지 요소 추가
 
       const name = document.getElementById("name").value;
+      const gender = document.getElementById("gender").value;
       const resultString = `
-  <p><strong>${name}님!</strong> 결과가 나왔어요!</p>
+  <p><strong>${name}님!</strong> 당신의 성별은 ${gender}!! 결과가 나왔어요!</p>
   <p>당신의 빼빼로 유형은 <strong>"${peperoResult.type}"</strong> 입니다.</p>
   <p>${peperoResult.description}</p>
 `;
